@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="icon" type="image/x-icon" href=https://freesvg.org/img/treasurechest-colour.png>
+    <link rel="stylesheet" href="treasure.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Treasure Hunt</h1>
+    <img src="https://img.freepik.com/premium-photo/massive-pirate-ship-large-splashes-large-transparent_777271-4204.jpg?w=2000" height="300px">
+    <h2>Rules</h2>
+<div>
+    <ul>
+        <li>Click the boxes to reveal the map.</li>
+        <li>If you click on the bomb, you lose.</li>
+        <li>If you click on the treasure, you win.</li>
+    </ul>
+    <table border="1">
+        <tr>
+            <td id="0" onclick="changeToEmoji(0)">?</td>
+            <td id="1" onclick="changeToEmoji(1)">?</td>
+            <td id="2" onclick="changeToEmoji(2)">?</td>
+        </tr>
+        <tr>
+            <td id="3" onclick="changeToEmoji(3)">?</td>
+            <td id="4" onclick="changeToEmoji(4)">?</td>
+            <td id="5" onclick="changeToEmoji(5)">?</td>
+        </tr>
+        <tr>
+            <td id="6" onclick="changeToEmoji(6)">?</td>
+            <td id="7" onclick="changeToEmoji(7)">?</td>
+            <td id="8" onclick="changeToEmoji(8)">?</td>
+        </tr>
+    </table>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+</div>
+<footer>&copy AG Games Inc
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwim88WExZ6BAxW2IUQIHd__AqAQFnoECBMQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_pirates&usg=AOvVaw27zyLXJdzMi-ZYC__uZQlH&opi=89978449" target="_blank">More pirate info</a>
+</footer>
+<script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>

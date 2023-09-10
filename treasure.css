@@ -1,0 +1,19 @@
+h1, h2 {
+    color: blue;
+    text-align :center;
+    border: solid gold;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+    color: chocolate;
+}
+body {
+    background-color: darkcyan;
+    font-family: 'Satisfy', cursive;
+}
+table {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
